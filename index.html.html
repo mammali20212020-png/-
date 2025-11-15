@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع عرفني الإخباري</title>
+    <!-- ربط ملف CSS الخارجي -->
+    <link rel="stylesheet" href="style.css">
+    <!-- الخطوة 1: كود AdSense الرئيسي -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9666641073405818"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo.png" alt="شعار موقع عرفني" class="logo">
+            <h1>عرفني - موقع إخباري</h1>
+        </div>
+        <p>آخر الأخبار المحلية والعالمية لحظة بلحظة</p>
+    </header>
+    <nav id="main-nav">
+        <a href="#" data-category="all"><span aria-hidden="true">🏠</span> الرئيسية</a>
+        <a href="#" data-category="سياسة"><span aria-hidden="true">📰</span> سياسة</a>
+        <a href="#" data-category="رياضة"><span aria-hidden="true">⚽</span> رياضة</a>
+        <a href="#" data-category="تكنولوجيا"><span aria-hidden="true">💻</span> تكنولوجيا</a>
+        <a href="#" data-category="منوعات"><span aria-hidden="true">🎨</span> منوعات</a>
+        <a href="#" data-category="كورسات"><span aria-hidden="true">🎓</span> كورسات مجانية</a>
+        <a href="#" data-category="مقالة"><span aria-hidden="true">📚</span> مقالات وأبحاث</a>
+        <a href="#" data-category="أسعار"><span aria-hidden="true">💰</span> أسعار وعملات</a>
+        <a href="privacy.html"><span>🔒</span> سياسة الخصوصية</a>
+    </nav>
+    <div class="container">
+        <div class="search-bar">
+            <input type="search" id="search-input" placeholder="ابحث عن الأخبار...">
+            <button id="search-btn">بحث</button>
+        </div>
+        <div class="main-content">
+            <main class="news-section">
+                <div id="news-list">
+                    <article class="news-item">
+                        <h2>جاري تحميل الأخبار، يرجى الانتظار...</h2>
+                    </article>
+                </div>
+                <div class="load-more-container">
+                    <button id="load-more-btn">تحميل المزيد</button>
+                </div>
+            </main>
+            <aside class="sidebar">
+                <img src="https://media.tenor.com/2v4bQkQwK9gAAAAC/news-anchor-woman.gif" alt="مذيعة أخبار"
+                    class="anchor-image">
+                <div class="anchor-title">مذيعة الأخبار</div>
+                <div id="anchor-news" class="anchor-news-box">جاري جلب الخبر...</div>
+                <div class="ad-placeholder">
+                    <!-- تم حذف رقم الدعم -->
+                </div>
+                <div class="ad-placeholder">
+                    <!-- الخطوة 2: كود الوحدة الإعلانية -->
+                    <ins class="adsbygoogle"
+                        style="display:block; background:#f0f0f0; border-radius:8px; text-align:center;"
+                        data-ad-client="ca-pub-9666641073405818" data-ad-slot="1234567890" data-ad-format="auto"
+                        data-full-width-responsive="true"></ins>
+                </div>
+            </aside>
+        </div>
+        <div class="contact-banner">
+            للإعلان أو للاستفسار يرجى التواصل معنا فقط.
+        </div>
+    </div>
+    <div class="ticker">
+        <div class="ticker-content" id="ticker-content">جاري جلب الأخبار...</div>
+    </div>
+    <!-- ربط ملف JavaScript الخارجي -->
+    <script src="script.js"></script>
+    <footer>
+        &copy; 2025 عرفني. جميع الحقوق محفوظة.
+    </footer>
+</body>
+
+</html>
